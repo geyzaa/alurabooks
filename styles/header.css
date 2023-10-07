@@ -1,0 +1,47 @@
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg"); /* os dois pontos são usados pq sem eles o header.css ia procurar dentro da pasta styles, mas a imagem está em outra pasta */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; /* inline-block pra permitir modificação na altura e largura*/
+     
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;  /* desaparece com o elemento, nesse caso a lista do menu hamburguer*/ 
+    position: absolute;
+    top: 100%;
+} 
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+/* o ~ é um combinador css, que procura a classe dentro da outra*/
+
+.lista-menu__titulo, 
+.lista-menu__item {
+padding: 1em;
+background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+color: var(--laranja);
+
+}
