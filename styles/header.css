@@ -29,7 +29,9 @@
     display: none;  /* desaparece com o elemento, nesse caso a lista do menu hamburguer*/ 
     position: absolute;
     top: 100%;
+    width: 60vw;
 } 
+
 .container__botao:checked~.lista-menu {
     display: block;
 }
@@ -43,5 +45,18 @@ background-color: var(--branco);
 
 .lista-menu__titulo {
 color: var(--laranja);
-
+font-weight: 700;
 }
+
+.lista-menu__link { 
+    background: var(--azul-degrade);
+    background-clip: text; /*prende a cor de background apenas no texto*/
+    -webkit-background-clip: text; /* pra funcionar em outros tipos de navegadores*/
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase; /*coloca em caixa alta*/
+}
+
+.container__botao {
+    display: none;
+}
+
