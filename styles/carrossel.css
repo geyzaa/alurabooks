@@ -21,3 +21,9 @@ display: none;
     position: initial; /*vai posicionar as bolinhas acima das imagens*/
     margin: 0.5em 0; /*primeiro: topo e baixo e o segundo: esquerda e direita*/
 }
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    
+}
