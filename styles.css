@@ -2,6 +2,8 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 /*outra forma de referenciar/importar paginas de estilos, sem usar stylesheet no html
  e quando carregar o styles, já vai carregar tudo que importou junto, 
