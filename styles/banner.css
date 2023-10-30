@@ -45,7 +45,7 @@ margin: 1em 0;
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 7em;
+        background-position: 5em;
     }
 }
 
@@ -55,7 +55,7 @@ margin: 1em 0;
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 12em;
+        background-position: 7em;
     }
 
     .banner {
