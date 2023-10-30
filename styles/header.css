@@ -65,6 +65,10 @@ font-weight: 700;
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 /*media query aplicar estilos em telas de outros tamanhos*/
 @media screen and (min-width: 1024px) {
     .container__titulo, 
@@ -110,5 +114,29 @@ font-weight: 700;
     }
     .opcoes__botao {
        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto; 
+    } /*flex container,
+    margin-right ou left com valor auto, 
+    preenche todo o espaço que sobra, nesse caso 
+    preencheu a direita, os itens foram pra esuerda */
+
+    .container__texto {
+        display: block;
     }
 }

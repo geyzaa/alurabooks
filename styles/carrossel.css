@@ -104,3 +104,9 @@ display: flex;
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+    }
+}
