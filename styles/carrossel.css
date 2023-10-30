@@ -111,9 +111,9 @@ display: flex;
         margin: 0 20vw 3em 20vw;
         align-items: center;
     }
-
+/*era 1*/
     .swiper-pagination {
-        margin: 1em 0;
+        margin: 2em 0;
     }
 
     .swiper {
@@ -137,4 +137,15 @@ display: flex;
     .descricao__texto {
         font-size: 16px;
     }
+
+    .botoes__ancora:active {
+        background-color: var(--azul-secundario);
+    }
+
+    .swiper-slide:hover {
+        scale: 1.1;
+        transition: .5s;
+    }
+
+
 }

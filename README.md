@@ -1,7 +1,8 @@
 # alurabooks
 
-> Projeto em desenvolvimento
+> Projeto realizado durante o curso de responsividade da Alura.
 > utilizando abordagem `Mobile First`.
+
 
 Praticas abordadas:
 * iniciar projeto front-end
@@ -10,3 +11,4 @@ Praticas abordadas:
 * Propriedades CSS
 * Uso de plugins externos
 * MEDIA QUERIES
+

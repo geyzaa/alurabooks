@@ -52,4 +52,8 @@ padding: 1em;
     .rodape {
         padding: 3em 0;
     }
+
+    .lista__rodape-link:hover {
+        color:var(--laranja);
+    }
 }
